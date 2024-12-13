@@ -1,0 +1,175 @@
+/*  */
+/* common */
+/*  */
+
+html {
+  font-size: 62.5%;  /* 1rem = 16px を 1rem = 10px になるよう変換した。分かりやすいから。 */
+  /* ぶっちゃけ現場ではrem推奨されてる？px推奨？ */
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Crimson Text', serif;
+}
+
+/* hero & header */
+
+.l-hero__image {
+  width: 90vw;
+}
+.l-header {
+  display: flex;
+}
+.c-logoImage {
+  width: 110px;
+}
+.l-header__list {
+  display: flex;
+  margin-left: 50px;
+}
+.l-header__item:not(:first-child) {
+  margin-left: 30px;
+}
+.l-header__link {
+  color: black;
+  text-decoration: none;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+/* main */
+
+.l-main {
+  padding: 0 18px;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* concept */
+
+.c-textTitle {
+  font-size: 2.4rem;
+  line-height: 3.1rem;
+}
+.c-subTitle {
+  margin-top: 0.4rem;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+}
+.c-text {
+  margin-top: 2.5rem;
+  font-size: 1.6rem;
+  line-height: 2.75rem;
+}
+
+/* work */
+
+.p-work {
+  margin-top: 60px;
+}
+
+
+/* footer */
+
+.l-footer {
+  margin-top: 80px;  
+  margin-bottom: 20px;
+  padding: 0 18px;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+.l-footer__logo {
+  display: inline-block;
+}
+.l-footer__copyright {
+  font-size: 1.4rem;
+  display: inline-block;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    margin-top: 4%;
+  }
+  .l-header {
+    width: 90vw;
+    margin-top: 32px;
+  }
+  .l-main {
+    margin-top: 62px;
+  }
+  .p-concept {
+    display: flex;
+    width: 100%;
+  }
+  .p-concept__picture {
+    width: 50%;
+  }
+  .p-concept__image {
+    width: 100%;
+  }
+  .p-concept__textBox {
+    width: 50%;
+    padding: 0 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .p-work {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+  }
+  .p-work__picture {
+    width: 50%;
+  }
+  .p-work__image {
+    width: 100%;
+  }
+  .p-work__textBox {
+    width: 50%;
+    padding: 0 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .l-hero__Image {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
+  .l-header {
+    width: 100%;
+    padding: 0 18px;
+    margin-top: 20px;
+  }
+  .l-main {
+    margin-top: 50px;
+  }
+  .p-concept__image {
+    width: 100%;
+  }
+  .p-concept__textBox {
+    margin-top: 10px;
+  }
+  .c-textTitle {
+  font-size: 2rem;
+  }
+  .p-work__image {
+    width: 100%;
+  }
+  .p-work__textBox {
+    margin-top: 10px;
+  }
+  
+}
