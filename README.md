@@ -1,12 +1,17 @@
-# プロジェクト名
+# タイトル
 
-このプロジェクトは...
+Codejump-入門編-WoodenJewelry
 
-## 使い方
+## URL・概要
 
-1. 手順 1
-2. 手順 2
+https://tsubasa-yamamoto1998.github.io/CodeJump-WoodenJewelry/
 
-## ライセンス
+Codejump にてページ作成の練習を行った。
 
-このプロジェクトは MIT ライセンスの下で公開されています。
+## 使用技術
+
+html, css
+
+## アピールポイント
+
+デモページを参考に機能を確認し、ページ内リンクを実装できた。
