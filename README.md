@@ -1,11 +1,8 @@
-# タイトル
-
-Codejump-入門編-WoodenJewelry
+# Codejump-入門編-WoodenJewelry
 
 ## URL・概要
 
 https://tsubasa-yamamoto1998.github.io/CodeJump-WoodenJewelry/
-
 Codejump にてページ作成の練習を行った。
 
 ## 使用技術
